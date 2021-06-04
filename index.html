@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js">
+
+    </script>
+   
+<style>
+
+</style>
+</head>
+
+<body>
+
+    <header class="heroImage"></header>
+
+    <div class="inja" style="width: 20%; height: 40%; background-color: transparent; z-index: 1; display: block; position: fixed; top: 30%;left: 40%;" >
+
+    </div>
+
+
+        <a href="#" class="topleft">camile pawlak</a>
+        <a href="#" class="topright">about</a>
+        <a href="#" class="bleft">scroll to navigate</a>
+
+        <a href="#" class="br1">linkedin</a>
+        <a href="#" class="br2">twitter</a>
+        <a href="#" class="br3">dribble</a>
+
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"  >
+            <div class="carousel-indicators" >
+                <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div  class="carousel-item active" >
+                    
+                    <img src="wise-stone.jpg"  class=" d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>wise-stone</h1>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img  src="buddy-buddy.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 >buddy-buddy</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="experiments.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 >experiments</h1>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="tesla.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 >tesla</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="svgMask" >
+            <svg fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                <defs>
+                    <mask class="re" id="maskImg" x="0" y="0">
+                        <path d="M0 0H1600V900H0V0Z" fill="white" width="100%" height="100%" />
+                        <circle  cx="50%" cy="50%" r="20%" fill="black" />
+                    </mask>
+                </defs>
+                <path d="M0 0H1600V900H0V0Z" fill="black" width="100%" height="100%" id="rect" mask="url(#maskImg)" />
+            </svg>
+        </div>
+    </header>
+
+
+    <script>
+        $(document).ready(function () {
+              // $('.carousel').click(function () {
+              //       $(".heroImage").load('page.html',function(){
+              //            $('.topleft').css('color','#fff');
+              //            $('.topright').css('color','#fff');
+              //            $('.topleft').css('opacity','0.8');
+              //            $('.topright').css('opacity','0.8');
+              //            $('.topleft').css(' text-decoration','none');
+              //            $('.topright').css(' text-decoration','none');
+              //            $('.bodypage').css('height','150%');
+              //            $('.bodypage').css(' width','100%');
+              //            $('.bodypage').css(' position','absolute');
+              //       });
+                   
+      
+      
+      $('.inja').mouseenter(function(){
+          $(' circle').attr('r','25%');
+
+          })
+      $('.inja').mouseleave(function(){
+          $(' circle').attr('r','23%');
+          
+          })
+              })
+      
+      
+      
+          </script>
+      
+      
+   
+</body>
+
+</html>

@@ -1,9 +1,11 @@
-
-*{ transition:all 0.5s; }
+* {
+  transition: all 0.5s;
+}
 
 body {
   margin: 0;
   padding: 0;
+  background-color: #000;
 }
 
 *,
@@ -16,7 +18,7 @@ img {
   width: 100%;
   height: 100vh;
 
-  
+
 
   position: relative;
 
@@ -26,7 +28,7 @@ img {
 
 .svgMask {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 
   position: absolute;
   top: 0;
@@ -35,115 +37,190 @@ img {
 
 
 .carousel-caption {
-    margin-bottom: 17%;
- h1{
-   font-size: 80px;
-   opacity: 0.7;
-   color: white;
- }
-}
+  margin-bottom: 17%;
 
-
-
-.heroImage{
-  position: relative;
-
-
-.topleft{
-  position: fixed;
-  left: 5%;
-  top: 10%;
-  color: rgb(94, 94, 94);
-  z-index: 3;
-  font-weight: bold;
-  text-transform: capitalize;
-}
-.topright{
-  position: fixed;
-  right: 5%;
-  top: 10%;
-  color: rgb(94, 94, 94);
-  z-index: 3;
-  font-weight: bold;
-  text-transform: capitalize;
-
-}
-.bleft{
-  position: absolute;
-  left: 5%;
-  bottom: 10%;
-  color: rgb(94, 94, 94);
-  z-index: 1;
-  font-weight: bold;
-  text-transform: capitalize;
-}
-
-.br1{
-  position: absolute;
-  right: 5%;
-  bottom: 10%;
-  color: rgb(94, 94, 94);
-  z-index: 1;
-  font-weight: bold;
-  text-transform: capitalize;
-}
-.br2{
-  position: absolute;
-  right: 13%;
-  bottom: 10%;
-  color: rgb(94, 94, 94);
-  z-index: 1;
-  font-weight: bold;
-  text-transform: capitalize;
-}
-.br3{
-  position: absolute;
-  right:20%;
-  bottom: 10%;
-  color: rgb(94, 94, 94);
-  z-index: 1;
-  font-weight: bold;
-  text-transform: capitalize;
-}
-
-
-
-.buddy-buddy{
-  width: 100%;
-}
-
-
-
-
-.mtnbuddy-buddy{
-  font-weight: 700;
-  position: absolute;
-  color: #fff;
-  right: 30%;
-  top: 40%;
-  font-size: 90px;
-  opacity: 0.8;
-  text-transform: capitalize;
-  word-spacing: 35px;
- 
-}
-
-img{
-  width: 700px;
-}
-a{
-  text-decoration: none;
-  &:hover{
-    color: #fff;
+  h1 {
+    font-size: 80px;
+    opacity: 0.7;
+    color: white;
   }
 }
 
 
 
+.heroImage {
+  position: relative;
+
+
+
+  .buddy-buddy {
+    width: 100%;
+  }
+
+
+
+
+  .mtnbuddy-buddy {
+    font-weight: 700;
+    position: absolute;
+    color: #fff;
+    right: 30%;
+    top: 40%;
+    font-size: 90px;
+    opacity: 0.8;
+    text-transform: capitalize;
+    word-spacing: 35px;
+
+  }
+
+  img {
+    width: 700px;
+  }
+
+}
+
+.carousel-inner {
+  width: 50%;
+  height: 50%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+
+  .topleft {
+    position: fixed;
+    left: 5%;
+    top: 10%;
+    color: rgb(141, 137, 137);
+    z-index: 10;
+  }
+
+  .topright {
+    position: fixed;
+    right: 5%;
+    top: 10%;
+    color: rgb(141, 137, 137);
+    z-index: 10;
+  }
+
+  .bleft {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    color: rgb(141, 137, 137);
+    z-index: 10;
+  }
+
+  .br1 {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    color: rgb(141, 137, 137);
+    z-index: 10;
+  }
+
+  .br2 {
+    position: absolute;
+    right: 13%;
+    bottom: 10%;
+    color: rgb(141, 137, 137);
+    z-index: 10;
+  }
+
+  .br3 {
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+    color: rgb(141, 137, 137);
+    z-index: 10;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+    &:hover {
+      color: #fff;
+    }
+  }
 }
 
 
-.carousel-inner{
-  width: 50%;
-  height: 50%;
+
+
+
+#contentwis,#contenttes,#contentex,#contentbd{
+  background-color: #000;
+  width: 100%;
+height: 170vh;
+.conwise,.contes,.conex,.conbd{
+  width: 100%;
+}
+.spiner{
+  position: absolute;
+  left: 35%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+}
+#left{
+  position: relative;
+  width:30%;
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+  h5{
+    color: #fff;
+    text-align: center;
+   
+  }
+  p{
+    color: rgb(110, 108, 108);
+    text-align: center;
+
+
+  }
+}
+#right{
+  position: relative;
+  height: 500px;
+  width: 70%;
+  background-color: rgb(0, 0, 0);
+  h5{
+    color: #fff;
+    text-align: left;
+   
+  }
+  p{
+    color: rgb(110, 108, 108);
+    text-align: left;
+    line-height: 45px;
+
+
+  }
+}
+#txtvideo{
+
+  width: 100%;
+  height: 500px;
+  background-color: #000;
+  position: relative;
+  h6{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+color: #fff;
+  }
+  p{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    font-size: larger;
+    left: 20%;
+  }
+}
+#video{
+  width: 100%;
+  background-color: black;
 }

@@ -5,6 +5,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #000;
 }
 
 *,
@@ -22,7 +23,7 @@ img {
 
 .svgMask {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -40,66 +41,6 @@ img {
 
 .heroImage {
   position: relative;
-}
-
-.heroImage .topleft {
-  position: fixed;
-  left: 5%;
-  top: 10%;
-  color: #5e5e5e;
-  z-index: 3;
-  font-weight: bold;
-  text-transform: capitalize;
-}
-
-.heroImage .topright {
-  position: fixed;
-  right: 5%;
-  top: 10%;
-  color: #5e5e5e;
-  z-index: 3;
-  font-weight: bold;
-  text-transform: capitalize;
-}
-
-.heroImage .bleft {
-  position: absolute;
-  left: 5%;
-  bottom: 10%;
-  color: #5e5e5e;
-  z-index: 1;
-  font-weight: bold;
-  text-transform: capitalize;
-}
-
-.heroImage .br1 {
-  position: absolute;
-  right: 5%;
-  bottom: 10%;
-  color: #5e5e5e;
-  z-index: 1;
-  font-weight: bold;
-  text-transform: capitalize;
-}
-
-.heroImage .br2 {
-  position: absolute;
-  right: 13%;
-  bottom: 10%;
-  color: #5e5e5e;
-  z-index: 1;
-  font-weight: bold;
-  text-transform: capitalize;
-}
-
-.heroImage .br3 {
-  position: absolute;
-  right: 20%;
-  bottom: 10%;
-  color: #5e5e5e;
-  z-index: 1;
-  font-weight: bold;
-  text-transform: capitalize;
 }
 
 .heroImage .buddy-buddy {
@@ -122,16 +63,150 @@ img {
   width: 700px;
 }
 
-.heroImage a {
-  text-decoration: none;
-}
-
-.heroImage a:hover {
-  color: #fff;
-}
-
 .carousel-inner {
   width: 50%;
   height: 50%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body .topleft {
+  position: fixed;
+  left: 5%;
+  top: 10%;
+  color: #8d8989;
+  z-index: 10;
+}
+
+body .topright {
+  position: fixed;
+  right: 5%;
+  top: 10%;
+  color: #8d8989;
+  z-index: 10;
+}
+
+body .bleft {
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+  color: #8d8989;
+  z-index: 10;
+}
+
+body .br1 {
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+  color: #8d8989;
+  z-index: 10;
+}
+
+body .br2 {
+  position: absolute;
+  right: 13%;
+  bottom: 10%;
+  color: #8d8989;
+  z-index: 10;
+}
+
+body .br3 {
+  position: absolute;
+  right: 20%;
+  bottom: 10%;
+  color: #8d8989;
+  z-index: 10;
+}
+
+body a {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+body a:hover {
+  color: #fff;
+}
+
+#contentwis, #contenttes, #contentex, #contentbd {
+  background-color: #000;
+  width: 100%;
+  height: 170vh;
+}
+
+#contentwis .conwise, #contentwis .contes, #contentwis .conex, #contentwis .conbd, #contenttes .conwise, #contenttes .contes, #contenttes .conex, #contenttes .conbd, #contentex .conwise, #contentex .contes, #contentex .conex, #contentex .conbd, #contentbd .conwise, #contentbd .contes, #contentbd .conex, #contentbd .conbd {
+  width: 100%;
+}
+
+#contentwis .spiner, #contenttes .spiner, #contentex .spiner, #contentbd .spiner {
+  position: absolute;
+  left: 35%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#left {
+  position: relative;
+  width: 30%;
+  background-color: black;
+  height: 500px;
+}
+
+#left h5 {
+  color: #fff;
+  text-align: center;
+}
+
+#left p {
+  color: #6e6c6c;
+  text-align: center;
+}
+
+#right {
+  position: relative;
+  height: 500px;
+  width: 70%;
+  background-color: black;
+}
+
+#right h5 {
+  color: #fff;
+  text-align: left;
+}
+
+#right p {
+  color: #6e6c6c;
+  text-align: left;
+  line-height: 45px;
+}
+
+#txtvideo {
+  width: 100%;
+  height: 500px;
+  background-color: #000;
+  position: relative;
+}
+
+#txtvideo h6 {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  color: #fff;
+}
+
+#txtvideo p {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  font-size: larger;
+  left: 20%;
+}
+
+#video {
+  width: 100%;
+  background-color: black;
 }
 /*# sourceMappingURL=main.css.map */

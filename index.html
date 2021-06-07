@@ -18,118 +18,387 @@
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js">
 
     </script>
-   
-<style>
 
-</style>
+    <style>
+
+    </style>
 </head>
 
 <body>
 
-    <header class="heroImage" >
+    <div class="row ">
+        <div class="col col-llg-12" id="asli">
+            <a href="#" class="topleft">camile pawlak</a>
+            <a href="#" class="topright">about</a>
+            <a href="#" class="bleft">scroll to navigate</a>
 
-    
-
-        <a href="#" class="topleft">camile pawlak</a>
-        <a href="#" class="topright">about</a>
-        <a href="#" class="bleft">scroll to navigate</a>
-
-        <a href="#" class="br1">linkedin</a>
-        <a href="#" class="br2">twitter</a>
-        <a href="#" class="br3">dribble</a>
+            <a href="#" class="br1">linkedin</a>
+            <a href="#" class="br2">twitter</a>
+            <a href="#" class="br3">dribble</a>
+            <header class="heroImage">
 
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"  >
-            <div class="carousel-indicators" >
-                <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
+
+
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+
+
+
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="wise-stone active" aria-current="true" aria-label="Slide 1"></button>
+
+
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            class="buddy-buddy" aria-label="Slide 2"></button>
+
+
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            class="experiments" aria-label="Slide 3"></button>
+
+
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            class="tesla" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+
+                            <img src="img/wise-stone.jpg" class=" d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>wise-stone</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="img/buddy-buddy.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>buddy-buddy</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/experiments.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>experiments</h1>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/tesla.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>tesla</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="svgMask">
+                    <svg fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                        <defs>
+                            <mask class="re" id="maskImg" x="0" y="0">
+                                <path d="M0 0H1600V900H0V0Z" fill="white" width="100%" height="100%" />
+                                <circle cx="50%" cy="50%" r="20%" fill="black" />
+                            </mask>
+                        </defs>
+                        <path d="M0 0H1600V900H0V0Z" fill="black" width="100%" height="100%" id="rect"
+                            mask="url(#maskImg)" />
+                    </svg>
+                </div>
+            </header>
+            <div class="vasat"
+                style="width: 20%; height: 40%; background-color: transparent; z-index: 1; display: block; position: fixed; top: 30%;left: 40%;">
             </div>
-            <div class="carousel-inner">
-                <div  class="carousel-item active" >
-                    
-                    <img src="img/wise-stone.jpg"  class=" d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>wise-stone</h1>
-                    </div>
-                </div>
-                <div class="carousel-item ">
-                    <img  src="img/buddy-buddy.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1 >buddy-buddy</h1>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/experiments.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1 >experiments</h1>
-                    </div>
-                </div>
-                
-                <div class="carousel-item">
-                    <img src="img/tesla.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1 >tesla</h1>
-                    </div>
-                </div>
-            </div>
+
+
 
         </div>
-        <div class="svgMask" >
-            <svg fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                <defs>
-                    <mask class="re" id="maskImg" x="0" y="0">
-                        <path d="M0 0H1600V900H0V0Z" fill="white" width="100%" height="100%" />
-                        <circle  cx="50%" cy="50%" r="20%" fill="black" />
-                    </mask>
-                </defs>
-                <path d="M0 0H1600V900H0V0Z" fill="black" width="100%" height="100%" id="rect" mask="url(#maskImg)" />
-            </svg>
-        </div>
-    </header>
-    <div class="inja" style="width: 20%; height: 40%; background-color: transparent; z-index: 1; display: block; position: fixed; top: 30%;left: 40%;" >
 
     </div>
 
 
+
+    <div class="kol-wise">
+        <div class="row">
+            <div class="col col-lg-12" id="contentwis">
+                <img src="img/wise-stone.jpg" class="conwise" alt="">
+                <div class="spiner">
+                    <div class="spinner-border" style="color: #fff; width: 15rem; height:15rem;" role="status">
+                        <span class="visually-hidden"></span>
+                    </div>
+                    <div class="spinner-grow" style="color: #fff; width: 15rem; height: 15rem;" role="status">
+                        <span class="visually-hidden"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-lg-2" id="left">
+                <h5>SERVICES</h5>
+                <p>UX/UI design <br>
+                    Motion design</p>
+            </div>
+            <div class="col col-lg-10" id="right">
+                <h5>SUMMARY</h5>
+                <p>I have joined Buddy Buddy, a young Parisian digital studio, for my second internship of 4 months with
+                    my
+                    good friend Gaetan. On this occasion we had the opportunity to work on an upgrade for the website of
+                    the
+                    studio. To do that we had to work from the current identity, to create something who can be added
+                    without seems different of what already exist. Gaetan also had fun to animate the result to promote
+                    our
+                    work and make it more alive.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-lg-12" id="video">
+
+                <video autoplay style="display: table; margin-left: auto; margin-right: auto;">
+                    <source src="img/buddy-buddy-02.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="kol-tes">
+        <div class="row">
+            <div class="col col-lg-12" id="contenttes">
+                <img src="img/tesla.jpg" class="contes" alt="">
+                <div class="spiner">
+                    <div class="spinner-border" style="color: #fff; width: 15rem; height:15rem;" role="status">
+                        <span class="visually-hidden"></span>
+                    </div>
+                    <div class="spinner-grow" style="color: #fff; width: 15rem; height: 15rem;" role="status">
+                        <span class="visually-hidden"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-lg-2" id="left">
+                <h5>SERVICES</h5>
+                <p>UX/UI design <br>
+                    Motion design</p>
+            </div>
+            <div class="col col-lg-10" id="right">
+                <h5>SUMMARY</h5>
+                <p>I have joined Buddy Buddy, a young Parisian digital studio, for my second internship of 4 months with
+                    my
+                    good friend Gaetan. On this occasion we had the opportunity to work on an upgrade for the website of
+                    the
+                    studio. To do that we had to work from the current identity, to create something who can be added
+                    without seems different of what already exist. Gaetan also had fun to animate the result to promote
+                    our
+                    work and make it more alive.</p>
+            </div>
+            <img src="img/tesla-01.jpg" alt="">
+        </div>
+
+
+
+        <div class="row">
+            <div class="col col-lg-12" id="txtvideo">
+
+                <h6>01. DASHBOARD INTERFACE</h6>
+                <p>The Tesla Model S had the particularity to have a central dashboard inside the car who’s the heart of
+                    the system. So we’ve adapted the actual dashboard interface to a sci-fi one in relation with our
+                    theme. This includes all the screens from navigating to music… We’ve also added our new feature
+                    "Modulation" which allow you to adapt and change the interior of your car.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-lg-12" id="video">
+                <video autoplay style="display: table; width:60%; margin-left: auto; margin-right: auto;">
+                    <source src="img/tesla-02.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <div class="kol-ex">
+        <div class="row">
+            <div class="col col-lg-12" id="contentex">
+                <img src="img/experiments.jpg" class="conex" alt="">
+                <div class="spiner">
+                    <div class="spinner-border" style="color: #fff; width: 15rem; height:15rem;" role="status">
+                        <span class="visually-hidden"></span>
+                    </div>
+                    <div class="spinner-grow" style="color: #fff; width: 15rem; height: 15rem;" role="status">
+                        <span class="visually-hidden"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-lg-2" id="left">
+                <h5>SERVICES</h5>
+                <p>UX/UI design <br>
+                    Motion design</p>
+            </div>
+            <div class="col col-lg-10" id="right">
+                <h5>SUMMARY</h5>
+                <p>I have joined Buddy Buddy, a young Parisian digital studio, for my second internship of 4 months with
+                    my
+                    good friend Gaetan. On this occasion we had the opportunity to work on an upgrade for the website of
+                    the
+                    studio. To do that we had to work from the current identity, to create something who can be added
+                    without seems different of what already exist. Gaetan also had fun to animate the result to promote
+                    our
+                    work and make it more alive.</p>
+            </div>
+            <img src="img/experiments-01.jpg" alt="">
+        </div>
+
+
+
+        <div class="row">
+            <div class="col col-lg-12" id="txtvideo">
+
+                <h6>01. DASHBOARD INTERFACE</h6>
+                <p>The Tesla Model S had the particularity to have a central dashboard inside the car who’s the heart of
+                    the system. So we’ve adapted the actual dashboard interface to a sci-fi one in relation with our
+                    theme. This includes all the screens from navigating to music… We’ve also added our new feature
+                    "Modulation" which allow you to adapt and change the interior of your car.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-lg-12" id="video">
+                <video autoplay style="display: table; width:60%; margin-left: auto; margin-right: auto;">
+                    <source src="img/experiments-02.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <div class="kol-bd">
+        <div class="row">
+            <div class="col col-lg-12" id="contentbd">
+                <img src="img/buddy-buddy.jpg" class="conbd" alt="">
+                <div class="spiner">
+                    <div class="spinner-border" style="color: #fff; width: 15rem; height:15rem;" role="status">
+                        <span class="visually-hidden"></span>
+                    </div>
+                    <div class="spinner-grow" style="color: #fff; width: 15rem; height: 15rem;" role="status">
+                        <span class="visually-hidden"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-lg-2" id="left">
+                <h5>SERVICES</h5>
+                <p>UX/UI design <br>
+                    Motion design</p>
+            </div>
+            <div class="col col-lg-10" id="right">
+                <h5>SUMMARY</h5>
+                <p>I have joined Buddy Buddy, a young Parisian digital studio, for my second internship of 4 months with
+                    my
+                    good friend Gaetan. On this occasion we had the opportunity to work on an upgrade for the website of
+                    the
+                    studio. To do that we had to work from the current identity, to create something who can be added
+                    without seems different of what already exist. Gaetan also had fun to animate the result to promote
+                    our
+                    work and make it more alive.</p>
+            </div>
+            <img src="img/experiments-01.jpg" alt="">
+        </div>
+
+
+
+        <div class="row">
+            <div class="col col-lg-12" id="txtvideo">
+
+                <h6>01. DASHBOARD INTERFACE</h6>
+                <p>The Tesla Model S had the particularity to have a central dashboard inside the car who’s the heart of
+                    the system. So we’ve adapted the actual dashboard interface to a sci-fi one in relation with our
+                    theme. This includes all the screens from navigating to music… We’ve also added our new feature
+                    "Modulation" which allow you to adapt and change the interior of your car.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-lg-12" id="video">
+                <video autoplay style="display: table; width:60%; margin-left: auto; margin-right: auto;">
+                    <source src="img/buddy-buddy-02.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
     <script>
         $(document).ready(function () {
-              // $('.carousel').click(function () {
-              //       $(".heroImage").load('page.html',function(){
-              //            $('.topleft').css('color','#fff');
-              //            $('.topright').css('color','#fff');
-              //            $('.topleft').css('opacity','0.8');
-              //            $('.topright').css('opacity','0.8');
-              //            $('.topleft').css(' text-decoration','none');
-              //            $('.topright').css(' text-decoration','none');
-              //            $('.bodypage').css('height','150%');
-              //            $('.bodypage').css(' width','100%');
-              //            $('.bodypage').css(' position','absolute');
-              //       });
-                   
-      
-      
-      $('.inja').mouseenter(function(){
-          $(' circle').attr('r','25%');
+            $('.vasat').mouseenter(function () {
+                $(' circle').attr('r', '25%');
 
-          })
-      $('.inja').mouseleave(function(){
-          $(' circle').attr('r','23%');
-          
-          })
-              })
-      
-      
-      
-          </script>
-      
-      
-   
+            })
+            $('.vasat').mouseleave(function () {
+                $(' circle').attr('r', '23%');
+            })
+
+            $('.kol-wise').css('display', 'none');
+            $('.wise-stone').click(function () {
+                $('#asli').css('display', 'none');
+                $('.kol-wise').css('display', 'block');
+            })
+
+            $('.kol-tes').css('display', 'none');
+            $('.tesla').click(function () {
+                $('#asli').css('display', 'none');
+                $('.kol-tes').css('display', 'block');
+            })
+
+            $('.kol-ex').css('display', 'none');
+            $('.experiments').click(function () {
+                $('#asli').css('display', 'none');
+                $('.kol-ex').css('display', 'block');
+            })
+
+            $('.kol-bd').css('display', 'none');
+            $('.buddy-buddy').click(function () {
+                $('#asli').css('display', 'none');
+                $('.kol-bd').css('display', 'block');
+            })
+
+
+
+        })
+
+
+
+    </script>
+
+
+
 </body>
 
 </html>
